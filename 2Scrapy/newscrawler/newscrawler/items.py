@@ -12,3 +12,10 @@ class ArticleItem(scrapy.Item):
     title = scrapy.Field()
     image = scrapy.Field()
     description = scrapy.Field()
+
+
+class BookItem(scrapy.Item):
+    title = scrapy.Field()
+    price = scrapy.Field()
+    availability = scrapy.Field()
+    url = scrapy.Field()
